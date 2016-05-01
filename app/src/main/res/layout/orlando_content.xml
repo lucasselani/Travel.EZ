@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.swinatel.travelez.OrlandoActivity"
+    tools:showIn="@layout/app_bar_orlando">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/orlando"
+            android:id="@+id/orlando_img"
+            android:layout_alignParentStart="true"
+            android:contentDescription="orlando_image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orlando_img"
+            android:textSize="20sp"
+            android:textColor="@android:color/secondary_text_light"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Estados Unidos, Orlando"
+            android:id="@+id/name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/secondary_text_light"
+            android:fontFamily="sans-serif-thin"
+            android:textAlignment="textStart"/>
+
+</RelativeLayout>

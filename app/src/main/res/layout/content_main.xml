@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.swinatel.travelez.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cardList"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/filter_list"
+        android:elevation="30dp"
+        android:background="#EAEAEA"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filtrar por"
+            android:textSize="18sp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="PAÍS"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="PREÇO"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="DURAÇÃO"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="TIPO"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

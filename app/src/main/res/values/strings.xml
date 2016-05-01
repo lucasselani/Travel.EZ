@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Travel.EZ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="description">
+        Orlando recebeu em 2012 mais de 55 milhões de turistas, tornando-se a cidade mais visitada dos Estados Unidos e a segunda mais visitada no mundo. Isto a faz comportar uma imensa infraestrutura de hotéis, carros de passeio e guias para atender tal demanda. A infraestrutura para o turismo é tão grande que a cidade possui 100 mil quartos de hoteis a disposição e 26 mil residencias de aluguel para férias, o turismo emprega 230 mil pessoas na região, sendo que Walt Disney World é a que mais emprega, com 56 mil funcionários.
+    </string>
+</resources>
